@@ -1,0 +1,270 @@
+
+.container-header, .line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.mobil{
+    display: none;
+}
+.container-header > div{
+    width: calc(100%/5);
+    margin-right: 2%;
+    font-size: 18px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    text-align: center;
+}
+.container-header:last-child{
+    margin-right: 0;
+}
+
+.line{
+    border: 1px solid #828282;
+    margin-right: 16%;
+    margin-left: 15%;
+}
+
+.container-name{
+    display: flex;
+    align-items: baseline;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+.Denis{
+    font-family: 'Gilroy-Bold',sans-serif;
+    font-size: 47px;
+    color: #070707;
+    text-align: left;
+}
+.about_denis{
+    padding-left: 35%;
+    text-align: center;
+}
+.Image1 {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    margin-bottom: 4%;
+}
+
+
+.container-about, .container-portfolio, .container-contacts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    background-color: #F6F6F6;
+    margin-bottom: 4%;
+}
+.container-about > div, .contact>div{
+    padding-bottom: 2%;
+    font-size: 18px;
+}
+
+.ABOUT1, .skill, .port,.contact>div:first-child{
+    font-size: 34px;
+    font-family: 'Gilroy-Bold',sans-serif;
+}
+
+
+.SKILLS{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.skill_text{
+    font-size: 18px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.container-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 15%;
+}
+.skill-icons{
+    padding-bottom: 4%;
+}
+.skill-icons{
+    width: 65%;
+}
+.skills-stars{
+    flex-wrap: nowrap ;
+    white-space: nowrap;
+    padding-top: 10%;
+}
+
+.port{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.container-portfolio{
+    background-color: white;
+    margin-bottom: 5%;
+}
+.container-portfolio>div>div:last-child{
+    padding-top: 3%;
+    padding-bottom: 6%;
+    font-family: 'Gilroy-Medium',sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+
+}
+
+.container-contacts{
+    background-color: white;
+}
+.contact>div:last-child{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 42%;
+    margin-right: 42%;
+    margin-bottom: 4%;
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.images-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-bottom: 2%;
+}
+.images-footer>div{
+    margin-right: 10%;
+}
+.images-footer:last-child{
+    font-family: 'Gilroy-Medium', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container-header{
+        display: none;
+    }
+    .star{
+        width: 20px;
+        height: 20px;
+    }
+    .shops{
+        width: 300px;
+    }
+    .mobil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .mobil>div{
+        margin-bottom: 4%;
+        font-size: 20px;
+    }
+    .container-skills{
+        flex-direction: column;
+    }
+    .skill-icons{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .container-header{
+        display: none;
+    }
+    .star{
+        width: 20px;
+        height: 20px;
+    }
+    .shops{
+        width: 500px;
+    }
+    .mobil{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .mobil>div{
+        margin-bottom: 4%;
+        font-size: 20px;
+    }
+    .container-skills{
+        flex-direction: column;
+    }
+    .skill-icons{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (min-width: 768px) {
+
+    .container-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    .mobil{
+        display: none;
+    }
+    .container-skills{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        margin-right: 15%;
+        margin-left: 15%;
+        margin-bottom: 15%;
+    }
+    .star{
+        width: 20px;
+        height: 20px;
+    }
+    .shops{
+        width: 668px;
+    }
+
+}
+@media screen and (min-width: 992px) {
+    .star{
+        width: 25px;
+        height: 25px;
+    }
+    .shops{
+        width: 892px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .star{
+        width: 30px;
+        height: 30px;
+    }
+    .shops{
+        width: 1100px;
+    }
+}
