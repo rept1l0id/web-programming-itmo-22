@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<knives>
+    <knife><id>1</id><name>Victorinox Camper</name><price>32.99$</price><description>Small and useful</description></knife>
+    <knife><id>2</id><name>Leatherman Charge Plus</name><price>159.95$</price><description>My favourite big boy</description></knife>
+    <knife><id>3</id><name>Ontario RAT-1 D2 steel</name><price>43$</price><description>The dest EDC one-blade knife</description></knife>
+</knives>
